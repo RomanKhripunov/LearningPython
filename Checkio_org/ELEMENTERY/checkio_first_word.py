@@ -2,6 +2,7 @@ import re
 import time
 
 
+
 def first_word_1(text: str) -> str:
     for ch in [",", "."]:
         text = text.replace(ch, "")
