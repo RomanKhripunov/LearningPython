@@ -1,0 +1,11 @@
+4
+ArithmeticError
+ZeroDivisionError : ArithmeticError
+OSError : MyClass ArithmeticError
+FileNotFoundError : OSError
+5
+ZeroDivisionError
+MyClass
+ArithmeticError
+FileNotFoundError
+ZeroDivisionError

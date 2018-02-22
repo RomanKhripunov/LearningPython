@@ -1,0 +1,4 @@
+hello text file
+goodbye text file
+my new line and add text to end
+add some text

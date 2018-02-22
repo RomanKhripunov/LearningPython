@@ -1,0 +1,5 @@
+<_io.TextIOWrapper name='<stdout>' mode='w' encoding='UTF-8'>
+<_io.TextIOWrapper name='<stdout>' mode='w' encoding='UTF-8'>
+6
+hello world in file!
+<_io.TextIOWrapper name='log.txt' mode='w' encoding='UTF-8'>
