@@ -9,6 +9,7 @@ def print_cat(lines):
     #     pattern = re.compile(r"(cat).*\1")
     #     if re.search(pattern, line):
     #         print(line)
+
     print(*[line for line in lines.split("\n") if re.search(r"(cat).*\1", line)], sep="\n")
 
 
