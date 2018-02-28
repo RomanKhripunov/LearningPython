@@ -1,5 +1,13 @@
 def checkio(words):
-    return True or False
+    counter = 0
+    for word in words.split():
+        if word.isdigit():
+            counter = 0
+        else:
+            counter += 1
+        if counter == 3:
+            return True
+    return False
 
 
 if __name__ == '__main__':

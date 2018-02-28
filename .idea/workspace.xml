@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f51074b-7c0b-49c8-a441-26fba98130da" name="Default" comment="add new project">
+      <change beforePath="" afterPath="$PROJECT_DIR$/Checkio_org/ELEMENTERY/checkio_index_power.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Checkio_org/ELEMENTERY/get_random_name.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Checkio_org/ELEMENTERY/names.txt" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Checkio_org/ELEMENTERY/checkio_print_cat.py" afterPath="$PROJECT_DIR$/Checkio_org/ELEMENTERY/checkio_print_cat.py" />
-      <change beforePath="$PROJECT_DIR$/PythonHomeProject" afterPath="$PROJECT_DIR$/PythonHomeProject" />
+      <change beforePath="$PROJECT_DIR$/Checkio_org/ELEMENTERY/checkio_three_words.py" afterPath="$PROJECT_DIR$/Checkio_org/ELEMENTERY/checkio_three_words.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,328 +18,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OneMoreTime/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="checkio_three_words.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Checkio_org/ELEMENTERY/checkio_three_words.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="135">
+              <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="brackets_parser.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonHomeProject/brackets_parser.py">
+      <file leaf-file-name="checkio_index_power.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Checkio_org/ELEMENTERY/checkio_index_power.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-9">
+              <caret line="0" column="26" lean-forward="true" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="names.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Checkio_org/ELEMENTERY/names.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="51" lean-forward="true" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="get_random_name.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Checkio_org/ELEMENTERY/get_random_name.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="checkio_first_word.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Checkio_org/ELEMENTERY/checkio_first_word.py">
+      <file leaf-file-name="checkio_bigger_price.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Checkio_org/ELEMENTERY/checkio_bigger_price.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="17" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="checkio_print_cat.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Checkio_org/ELEMENTERY/checkio_print_cat.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-704">
-              <caret line="2" column="37" lean-forward="true" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
-              <folding>
-                <element signature="n#component#0;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#list#0;n#component#0;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#component#1;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#file#0;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#0;n#file#0;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#0;n#file#0;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#0;n#file#0;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#file#1;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#0;n#file#1;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#0;n#file#1;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#0;n#file#1;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#file#2;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#0;n#file#2;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#0;n#file#2;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#0;n#file#2;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#file#3;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#0;n#file#3;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#0;n#file#3;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#0;n#file#3;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#file#4;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#0;n#file#4;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#0;n#file#4;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#0;n#file#4;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#file#5;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#0;n#file#5;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#0;n#file#5;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#0;n#file#5;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#component#2;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#option#0;n#component#2;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#list#0;n#option#0;n#component#2;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#component#3;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#findStrings#0;n#component#3;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#replaceStrings#0;n#component#3;n#project#0;n#!!top" expanded="true" />
-                <element signature="e#5253#5259#1" expanded="true" />
-                <element signature="n#dirStrings#0;n#component#3;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#component#4;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#component#5;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#option#0;n#component#5;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#list#0;n#option#0;n#component#5;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#component#6;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#component#7;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#0;n#component#7;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#profile-state#0;n#entry#0;n#component#7;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#expanded-state#0;n#profile-state#0;n#entry#0;n#component#7;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#State#0;n#expanded-state#0;n#profile-state#0;n#entry#0;n#component#7;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#State#1;n#expanded-state#0;n#profile-state#0;n#entry#0;n#component#7;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#selected-state#0;n#profile-state#0;n#entry#0;n#component#7;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#State#0;n#selected-state#0;n#profile-state#0;n#entry#0;n#component#7;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#component#9;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#navigator#0;n#component#9;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#panes#0;n#component#9;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#pane#1;n#panes#0;n#component#9;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#subPane#0;n#pane#1;n#panes#0;n#component#9;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#expand#0;n#subPane#0;n#pane#1;n#panes#0;n#component#9;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#path#0;n#expand#0;n#subPane#0;n#pane#1;n#panes#0;n#component#9;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#path#1;n#expand#0;n#subPane#0;n#pane#1;n#panes#0;n#component#9;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#path#2;n#expand#0;n#subPane#0;n#pane#1;n#panes#0;n#component#9;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#path#3;n#expand#0;n#subPane#0;n#pane#1;n#panes#0;n#component#9;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#component#10;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#component#11;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#option#0;n#component#11;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#console-settings#0;n#option#0;n#component#11;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#component#12;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#key#0;n#component#12;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#key#1;n#component#12;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#component#13;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#option#0;n#component#13;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#list#0;n#option#0;n#component#13;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#RuleState#0;n#list#0;n#option#0;n#component#13;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#RuleState#1;n#list#0;n#option#0;n#component#13;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#component#14;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#configuration#0;n#component#14;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#envs#0;n#configuration#0;n#component#14;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#configuration#1;n#component#14;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#envs#0;n#configuration#1;n#component#14;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#configuration#2;n#component#14;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#envs#0;n#configuration#2;n#component#14;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#configuration#3;n#component#14;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#envs#0;n#configuration#3;n#component#14;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#configuration#4;n#component#14;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#envs#0;n#configuration#4;n#component#14;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#configuration#5;n#component#14;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#envs#0;n#configuration#5;n#component#14;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#configuration#6;n#component#14;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#configuration#7;n#component#14;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#configuration#8;n#component#14;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#list#0;n#component#14;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#recent_temporary#0;n#component#14;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#list#0;n#recent_temporary#0;n#component#14;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#component#15;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#component#16;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#component#17;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#task#0;n#component#17;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#task#1;n#component#17;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#task#2;n#component#17;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#task#3;n#component#17;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#task#4;n#component#17;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#task#5;n#component#17;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#component#18;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#history-entry#0;n#component#18;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#history-entry#1;n#component#18;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#component#19;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#todo-panel#0;n#component#19;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#todo-panel#1;n#component#19;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#component#20;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#layout#0;n#component#20;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#component#21;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#option#0;n#component#21;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#map#0;n#option#0;n#component#21;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#0;n#map#0;n#option#0;n#component#21;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#value#0;n#entry#0;n#map#0;n#option#0;n#component#21;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#State#0;n#value#0;n#entry#0;n#map#0;n#option#0;n#component#21;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#option#0;n#State#0;n#value#0;n#entry#0;n#map#0;n#option#0;n#component#21;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#option#1;n#State#0;n#value#0;n#entry#0;n#map#0;n#option#0;n#component#21;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#option#2;n#State#0;n#value#0;n#entry#0;n#map#0;n#option#0;n#component#21;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#list#0;n#option#2;n#State#0;n#value#0;n#entry#0;n#map#0;n#option#0;n#component#21;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#component#22;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#component#23;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#component#24;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#breakpoint-manager#0;n#component#24;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#default-breakpoints#0;n#breakpoint-manager#0;n#component#24;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#breakpoint#0;n#default-breakpoints#0;n#breakpoint-manager#0;n#component#24;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#properties#0;n#breakpoint#0;n#default-breakpoints#0;n#breakpoint-manager#0;n#component#24;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#1;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#1;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#1;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#2;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#2;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#2;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#3;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#3;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#3;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#4;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#4;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#4;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#5;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#5;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#5;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#6;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#6;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#6;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#7;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#7;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#7;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#8;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#8;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#8;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#11;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#11;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#11;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#12;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#12;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#12;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#13;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#13;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#13;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#14;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#14;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#14;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#15;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#15;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#15;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#16;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#16;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#16;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#17;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#17;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#17;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#18;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#18;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#18;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#19;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#19;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#19;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#20;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#20;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#20;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#21;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#21;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#21;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#22;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#22;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#22;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#23;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#23;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#23;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#24;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#24;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#24;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#25;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#25;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#25;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#26;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#26;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#26;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#27;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#27;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#27;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#28;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#28;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#28;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#29;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#29;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#29;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#30;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#30;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#30;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#31;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#31;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#31;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#32;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#32;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#32;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#33;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#33;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#33;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#34;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#34;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#34;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#35;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#35;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#35;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#36;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#36;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#36;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#37;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#37;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#37;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#38;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#38;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#38;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#39;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#39;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#39;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#40;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#40;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#40;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#41;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#41;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#41;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#42;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#42;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#42;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#43;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#43;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#43;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#44;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#44;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#44;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#45;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#45;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#45;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#46;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#46;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#46;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#47;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#47;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#47;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#48;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#48;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#48;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#entry#50;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#provider#0;n#entry#50;n#component#25;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#state#0;n#provider#0;n#entry#50;n#component#25;n#project#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -377,6 +104,8 @@
       <find>i</find>
       <find>sorted_prices</find>
       <find>correct_sentence</find>
+      <find>__name__|__name__|__name__|__name__|__name__|__name__</find>
+      <find>rand_name</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -398,6 +127,7 @@
       <replace>word</replace>
       <replace>sorted_prices_list</replace>
       <replace>class_name</replace>
+      <replace>rand_num</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/Shturich Task</dir>
@@ -412,9 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/OneMoreTime/inter2.py" />
-        <option value="$PROJECT_DIR$/OneMoreTime/recursion.py" />
-        <option value="$PROJECT_DIR$/Shturich Task/exceptions" />
         <option value="$PROJECT_DIR$/Shturich Task/file_reader.py" />
         <option value="$PROJECT_DIR$/OneMoreTime/tkinter_test.py" />
         <option value="$PROJECT_DIR$/OneMoreTime/logging_test.py" />
@@ -459,10 +186,13 @@
         <option value="$PROJECT_DIR$/OneMoreTime/adder.py" />
         <option value="$PROJECT_DIR$/OneMoreTime/class_test.py" />
         <option value="$PROJECT_DIR$/OneMoreTime/__init__.py" />
-        <option value="$PROJECT_DIR$/Checkio_org/ELEMENTERY/checkio_three_words.py" />
         <option value="$PROJECT_DIR$/PythonHomeProject/brackets_parser.py" />
-        <option value="$PROJECT_DIR$/Checkio_org/ELEMENTERY/checkio_first_word.py" />
         <option value="$PROJECT_DIR$/Checkio_org/ELEMENTERY/checkio_print_cat.py" />
+        <option value="$PROJECT_DIR$/Checkio_org/ELEMENTERY/checkio_first_word.py" />
+        <option value="$PROJECT_DIR$/Checkio_org/ELEMENTERY/checkio_three_words.py" />
+        <option value="$PROJECT_DIR$/Checkio_org/ELEMENTERY/checkio_index_power.py" />
+        <option value="$PROJECT_DIR$/Checkio_org/ELEMENTERY/names.txt" />
+        <option value="$PROJECT_DIR$/Checkio_org/ELEMENTERY/get_random_name.py" />
       </list>
     </option>
   </component>
@@ -505,7 +235,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -524,21 +254,16 @@
               <item name="Checkio_org" type="462c0819:PsiDirectoryNode" />
               <item name="ELEMENTERY" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="LearningPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearningPython" type="462c0819:PsiDirectoryNode" />
-              <item name="PythonHomeProject" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -571,7 +296,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.best_stock">
+  <component name="RunManager" selected="Python.get_random_name">
     <configuration name="best_stock" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -608,55 +333,55 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="checkio_number" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="checkio_index_power" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OneMoreTime" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Checkio_org/ELEMENTERY" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="LearningPython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Checkio_org/ELEMENTERY/checkio_number.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Checkio_org/ELEMENTERY/checkio_index_power.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="checkio_subtraction" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="checkio_three_words" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OneMoreTime" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Checkio_org/ELEMENTERY" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="LearningPython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Checkio_org/ELEMENTERY/checkio_subtraction.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Checkio_org/ELEMENTERY/checkio_three_words.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="checkio_sum_mult" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="get_random_name" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OneMoreTime" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Checkio_org/ELEMENTERY" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="LearningPython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Checkio_org/ELEMENTERY/checkio_sum_mult.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Checkio_org/ELEMENTERY/get_random_name.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -727,19 +452,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.checkio_number" />
-      <item index="1" class="java.lang.String" itemvalue="Python.checkio_subtraction" />
-      <item index="2" class="java.lang.String" itemvalue="Python.checkio_sum_mult" />
-      <item index="3" class="java.lang.String" itemvalue="Python.checkio_find_message" />
-      <item index="4" class="java.lang.String" itemvalue="Python.best_stock" />
+      <item index="0" class="java.lang.String" itemvalue="Python.checkio_find_message" />
+      <item index="1" class="java.lang.String" itemvalue="Python.best_stock" />
+      <item index="2" class="java.lang.String" itemvalue="Python.checkio_three_words" />
+      <item index="3" class="java.lang.String" itemvalue="Python.checkio_index_power" />
+      <item index="4" class="java.lang.String" itemvalue="Python.get_random_name" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.best_stock" />
-        <item index="1" class="java.lang.String" itemvalue="Python.checkio_find_message" />
-        <item index="2" class="java.lang.String" itemvalue="Python.checkio_sum_mult" />
-        <item index="3" class="java.lang.String" itemvalue="Python.checkio_subtraction" />
-        <item index="4" class="java.lang.String" itemvalue="Python.checkio_number" />
+        <item index="0" class="java.lang.String" itemvalue="Python.get_random_name" />
+        <item index="1" class="java.lang.String" itemvalue="Python.checkio_index_power" />
+        <item index="2" class="java.lang.String" itemvalue="Python.checkio_three_words" />
+        <item index="3" class="java.lang.String" itemvalue="Python.best_stock" />
+        <item index="4" class="java.lang.String" itemvalue="Python.checkio_find_message" />
       </list>
     </recent_temporary>
   </component>
@@ -792,7 +517,14 @@
       <option name="project" value="LOCAL" />
       <updated>1519333251899</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add new project">
+      <created>1519333374611</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1519333374611</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -814,17 +546,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26895565" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2761087" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35323384" sideWeight="0.50858366" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.4892704" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.4134478" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3283582" sideWeight="0.4892704" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29975125" sideWeight="0.4914163" order="10" side_tool="false" content_ui="tabs" x="3" y="591" width="1398" height="273" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5865522" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3619403" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -868,6 +599,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/PythonHomeProject" />
+    </ignored-roots>
     <MESSAGE value="somthing add" />
     <MESSAGE value="add new project" />
     <option name="LAST_COMMIT_MESSAGE" value="add new project" />
@@ -881,26 +615,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="46" />
+      <option name="time" value="53" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/simplecrypt/encrypted.txt" />
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/simplecrypt/example-file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="38" column="25" lean-forward="false" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OneMoreTime/import_lesson.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OneMoreTime/inner_function.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -994,20 +713,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Checkio_org/ELEMENTERY/checkio_between_markers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Checkio_org/ELEMENTERY/checkio_best_stock.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Checkio_org/ELEMENTERY/checkio_sum_mult.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1026,13 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Checkio_org/ELEMENTERY/checkio_bigger_price.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="22" lean-forward="false" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1183,35 +881,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OneMoreTime/__init__.py">
+    <entry file="file://$PROJECT_DIR$/PythonHomeProject/brackets_parser.py" />
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Checkio_org/ELEMENTERY/checkio_three_words.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonHomeProject/brackets_parser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Checkio_org/ELEMENTERY/checkio_first_word.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="4135">
+          <caret line="335" column="40" lean-forward="true" selection-start-line="335" selection-start-column="40" selection-end-line="335" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -1219,281 +893,74 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Checkio_org/ELEMENTERY/checkio_first_word.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OneMoreTime/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Checkio_org/ELEMENTERY/checkio_best_stock.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Checkio_org/ELEMENTERY/checkio_between_markers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Checkio_org/ELEMENTERY/checkio_bigger_price.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/Checkio_org/ELEMENTERY/checkio_three_words.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-704">
-          <caret line="2" column="37" lean-forward="true" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
-          <folding>
-            <element signature="n#component#0;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#list#0;n#component#0;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#component#1;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#file#0;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#0;n#file#0;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#0;n#file#0;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#0;n#file#0;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#file#1;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#0;n#file#1;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#0;n#file#1;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#0;n#file#1;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#file#2;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#0;n#file#2;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#0;n#file#2;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#0;n#file#2;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#file#3;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#0;n#file#3;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#0;n#file#3;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#0;n#file#3;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#file#4;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#0;n#file#4;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#0;n#file#4;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#0;n#file#4;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#file#5;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#0;n#file#5;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#0;n#file#5;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#0;n#file#5;n#leaf#0;n#component#1;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#component#2;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#option#0;n#component#2;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#list#0;n#option#0;n#component#2;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#component#3;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#findStrings#0;n#component#3;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#replaceStrings#0;n#component#3;n#project#0;n#!!top" expanded="true" />
-            <element signature="e#5253#5259#1" expanded="true" />
-            <element signature="n#dirStrings#0;n#component#3;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#component#4;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#component#5;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#option#0;n#component#5;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#list#0;n#option#0;n#component#5;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#component#6;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#component#7;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#0;n#component#7;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#profile-state#0;n#entry#0;n#component#7;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#expanded-state#0;n#profile-state#0;n#entry#0;n#component#7;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#State#0;n#expanded-state#0;n#profile-state#0;n#entry#0;n#component#7;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#State#1;n#expanded-state#0;n#profile-state#0;n#entry#0;n#component#7;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#selected-state#0;n#profile-state#0;n#entry#0;n#component#7;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#State#0;n#selected-state#0;n#profile-state#0;n#entry#0;n#component#7;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#component#9;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#navigator#0;n#component#9;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#panes#0;n#component#9;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#pane#1;n#panes#0;n#component#9;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#subPane#0;n#pane#1;n#panes#0;n#component#9;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#expand#0;n#subPane#0;n#pane#1;n#panes#0;n#component#9;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#path#0;n#expand#0;n#subPane#0;n#pane#1;n#panes#0;n#component#9;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#path#1;n#expand#0;n#subPane#0;n#pane#1;n#panes#0;n#component#9;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#path#2;n#expand#0;n#subPane#0;n#pane#1;n#panes#0;n#component#9;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#path#3;n#expand#0;n#subPane#0;n#pane#1;n#panes#0;n#component#9;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#component#10;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#component#11;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#option#0;n#component#11;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#console-settings#0;n#option#0;n#component#11;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#component#12;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#key#0;n#component#12;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#key#1;n#component#12;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#component#13;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#option#0;n#component#13;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#list#0;n#option#0;n#component#13;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#RuleState#0;n#list#0;n#option#0;n#component#13;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#RuleState#1;n#list#0;n#option#0;n#component#13;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#component#14;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#configuration#0;n#component#14;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#envs#0;n#configuration#0;n#component#14;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#configuration#1;n#component#14;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#envs#0;n#configuration#1;n#component#14;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#configuration#2;n#component#14;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#envs#0;n#configuration#2;n#component#14;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#configuration#3;n#component#14;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#envs#0;n#configuration#3;n#component#14;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#configuration#4;n#component#14;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#envs#0;n#configuration#4;n#component#14;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#configuration#5;n#component#14;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#envs#0;n#configuration#5;n#component#14;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#configuration#6;n#component#14;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#configuration#7;n#component#14;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#configuration#8;n#component#14;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#list#0;n#component#14;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#recent_temporary#0;n#component#14;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#list#0;n#recent_temporary#0;n#component#14;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#component#15;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#component#16;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#component#17;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#task#0;n#component#17;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#task#1;n#component#17;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#task#2;n#component#17;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#task#3;n#component#17;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#task#4;n#component#17;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#task#5;n#component#17;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#component#18;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#history-entry#0;n#component#18;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#history-entry#1;n#component#18;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#component#19;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#todo-panel#0;n#component#19;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#todo-panel#1;n#component#19;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#component#20;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#layout#0;n#component#20;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#component#21;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#option#0;n#component#21;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#map#0;n#option#0;n#component#21;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#0;n#map#0;n#option#0;n#component#21;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#value#0;n#entry#0;n#map#0;n#option#0;n#component#21;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#State#0;n#value#0;n#entry#0;n#map#0;n#option#0;n#component#21;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#option#0;n#State#0;n#value#0;n#entry#0;n#map#0;n#option#0;n#component#21;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#option#1;n#State#0;n#value#0;n#entry#0;n#map#0;n#option#0;n#component#21;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#option#2;n#State#0;n#value#0;n#entry#0;n#map#0;n#option#0;n#component#21;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#list#0;n#option#2;n#State#0;n#value#0;n#entry#0;n#map#0;n#option#0;n#component#21;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#component#22;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#component#23;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#component#24;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#breakpoint-manager#0;n#component#24;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#default-breakpoints#0;n#breakpoint-manager#0;n#component#24;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#breakpoint#0;n#default-breakpoints#0;n#breakpoint-manager#0;n#component#24;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#properties#0;n#breakpoint#0;n#default-breakpoints#0;n#breakpoint-manager#0;n#component#24;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#1;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#1;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#1;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#2;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#2;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#2;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#3;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#3;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#3;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#4;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#4;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#4;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#5;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#5;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#5;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#6;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#6;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#6;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#7;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#7;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#7;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#8;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#8;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#8;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#11;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#11;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#11;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#12;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#12;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#12;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#13;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#13;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#13;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#14;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#14;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#14;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#15;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#15;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#15;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#16;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#16;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#16;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#17;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#17;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#17;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#18;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#18;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#18;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#19;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#19;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#19;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#20;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#20;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#20;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#21;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#21;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#21;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#22;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#22;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#22;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#23;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#23;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#23;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#24;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#24;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#24;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#25;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#25;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#25;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#26;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#26;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#26;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#27;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#27;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#27;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#28;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#28;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#28;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#29;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#29;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#29;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#30;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#30;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#30;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#31;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#31;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#31;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#32;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#32;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#32;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#33;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#33;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#33;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#34;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#34;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#34;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#35;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#35;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#35;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#36;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#36;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#36;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#37;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#37;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#37;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#38;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#38;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#38;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#39;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#39;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#39;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#40;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#40;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#40;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#41;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#41;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#41;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#42;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#42;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#42;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#43;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#43;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#43;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#44;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#44;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#44;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#45;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#45;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#45;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#46;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#46;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#46;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#47;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#47;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#47;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#48;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#48;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#48;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#entry#50;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#provider#0;n#entry#50;n#component#25;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#state#0;n#provider#0;n#entry#50;n#component#25;n#project#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Checkio_org/ELEMENTERY/checkio_index_power.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="0" column="26" lean-forward="true" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Checkio_org/ELEMENTERY/names.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="51" lean-forward="true" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Checkio_org/ELEMENTERY/get_random_name.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
