@@ -2,7 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <a href="{% url 'blogs:index' %}">Home</a>
+    <a href="{% url 'blogs:index' %}">Home</a> -
+    {% if user.is_authenticated %}
+        Hello, {{ user.username }} -
+        <a href="{% url 'users:logout' %}">Log out</a>
+    {% else %}
+        <a href="{% url 'users:register' %}">Register</a> -
+        <a href="{% url 'users:login' %}">Log in</a>
+    {% endif %}
 </head>
 <body>
     {% block content %}
