@@ -1,0 +1,11 @@
+{% extends 'blogs/base.html' %}
+
+{% block content %}
+    <p>
+        <b>{{ post.title }}</b> ({{ post.date_added|date:'M d, Y H:i' }})
+    </p>
+    <p>{{ post.text|linebreaks }}</p>
+    <form action="{% url 'blogs:edit_post' post.id %}">
+        <button name="submit">Edit post</button>
+    </form>
+{% endblock content %}
