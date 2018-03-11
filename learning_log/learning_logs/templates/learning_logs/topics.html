@@ -1,19 +1,31 @@
 {% extends "learning_logs/base.html" %}
+{% load bootstrap3 %}
+
+{% block header %}
+    <h2>Topics</h2>
+{% endblock header %}
 
 {% block content %}
-    <p>Topics</p>
-
-    <ul>
+    <ul class="list-group">
         {% for topic in topics %}
-            <li>
-                <a href="{% url 'learning_logs:topic' topic.id %}"> {{ topic }} </a>
+            <li class="list-group-item">
+                <h3>
+                    <a href="{% url 'learning_logs:topic' topic.id %}">{{ topic }}</a>
+                    {% if topic.owner == request.user %}
+                        <span class="text-muted" style="font-style: italic; font-weight: lighter">
+                            (My topic)
+                        </span>
+                    {% endif %}
+                </h3>
             </li>
         {% empty %}
-            <li>No topics have been added yet.</li>
+            <h4><li>No topics have been added yet.</li></h4>
         {% endfor %}
     </ul>
-    <!--<a href="{% url 'learning_logs:new_topic' %}">Add a new topic</a>-->
+
     <form action="{% url 'learning_logs:new_topic' %}">
-        <button name="submit">Add new topic</button>
+        {% buttons %}
+            <button name="submit" class="btn btn-primary">Add new topic</button>
+        {% endbuttons %}
     </form>
 {% endblock content %}
