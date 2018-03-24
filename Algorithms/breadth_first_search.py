@@ -1,5 +1,3 @@
-from collections import deque
-
 graph = {
     "YOU": ["BOB", "CLAIRE", "ALICE"],
     "BOB": ["ANUJ", "PEGGY"],
@@ -13,10 +11,10 @@ graph = {
 
 start, end = "YOU", "JONNY"
 
-
-def breadth_search(dict_data, start, end):
+from collections import deque
+def breadth_search(graph, start, end):
     search_deque = deque()
-    search_deque += dict_data.get(start)
+    search_deque += graph.get(start)
     searched = []
     while search_deque:
         person = search_deque.popleft()
@@ -25,7 +23,7 @@ def breadth_search(dict_data, start, end):
                 print("That's is searched item")
                 return True
             else:
-                search_deque += dict_data.get(person)
+                search_deque += graph.get(person)
             searched.append(person)
     return False
 
