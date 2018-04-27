@@ -851,7 +851,6 @@
 851	   indeed	r	46184	0.95
 852	   force	v	44931	0.97
 853	   truth	n	45155	0.97
-854	   song	n	45352	0.96
 855	   example	n	47134	0.93
 856	   democratic	j	47299	0.92
 857	   check	v	45760	0.95
@@ -948,7 +947,6 @@
 948	   manage	v	40536	0.97
 949	   chair	n	43256	0.91
 950	   fish	n	41488	0.95
-951	   particular	j	42291	0.93
 952	   camera	n	41218	0.95
 953	   structure	n	43638	0.90
 954	   politics	n	41758	0.94
@@ -1240,7 +1238,6 @@
 1240	   front	j	32087	0.93
 1241	   distance	n	31380	0.95
 1242	   wood	n	31801	0.93
-1243	   handle	v	30634	0.97
 1244	   truck	n	31536	0.94
 1245	   return	n	31058	0.95
 1246	   mountain	n	31322	0.94
@@ -1716,7 +1713,6 @@
 1716	   profit	n	21754	0.93
 1717	   angry	j	21485	0.94
 1718	   crew	n	21238	0.95
-1719	   deep	r	21413	0.95
 1720	   accident	n	20964	0.97
 1721	   male	n	22398	0.90
 1722	   meal	n	21556	0.94
@@ -3026,7 +3022,6 @@
 3026	   satisfy	v	10194	0.96
 3027	   pile	n	10594	0.92
 3028	   briefly	r	10125	0.97
-3029	   carbon	n	10799	0.90
 3030	   closer	j	9976	0.98
 3031	   consume	v	10308	0.95
 3032	   scheme	n	10428	0.93
