@@ -1,16 +1,34 @@
-def checkio(game_result):
-    if game_result[0][0] == game_result[0][1] == game_result[0][2] or \
-            game_result[1][0] == game_result[1][1] == game_result[1][2] or \
-            game_result[2][0] == game_result[2][1] == game_result[2][2] or \
-            game_result[0][0] == game_result[1][0] == game_result[2][0] or \
-            game_result[0][2] == game_result[1][2] == game_result[2][2] or \
-            game_result[0][1] == game_result[1][1] == game_result[2][1]:
-        return game_result[0][0]
-    elif game_result[0][0] == game_result[1][1] == game_result[2][2] or \
-            game_result[0][2] == game_result[1][1] == game_result[2][0]:
-        return game_result[1][1]
-    else:
-        return "D"
+print_count = 1
+
+def return_wrapper(func):
+    def wrapper(*args, **kwargs):
+        global print_count
+        result = func(*args, **kwargs)
+        print(print_count, result)
+        print_count += 1
+        return result
+    return wrapper
+
+@return_wrapper
+def checkio(matrix):
+    available_symbols = ('X', 'O')
+
+    for tmp_matrix in (matrix, list(zip(*matrix))):
+        matrix_len = len(tmp_matrix)
+        copied_matrix = tmp_matrix.copy()
+
+        tmp1 = ''
+        tmp2 = ''
+        for i in range(matrix_len):
+            tmp1 += tmp_matrix[i][i]
+            tmp2 += tmp_matrix[i][matrix_len - i - 1]
+        copied_matrix.extend((tmp1, tmp2))
+
+        for i in copied_matrix:
+            if len(set(i)) == 1 and i[0] in available_symbols:
+                return i[0]
+
+    return 'D'
 
 
 if __name__ == '__main__':
@@ -30,6 +48,10 @@ if __name__ == '__main__':
         "O.X",
         "XX.",
         "XOO"]) == "X", "Xs wins again"
+    assert checkio([
+        "X.X",
+        "OOO",
+        "O.."]) == "O", "Os wins again"
     print("Coding complete? Click 'Check' to review your tests and earn cool rewards!")
 
 
