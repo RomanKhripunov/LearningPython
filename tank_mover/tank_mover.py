@@ -1,13 +1,13 @@
 import pexpect
 
 
-def pyconsole_connect(host, login, port=2200):
+def pyconsole_connect(host, login, port):
     connect_command = '/usr/bin/ssh {login}@{host} -p {port}'.format(login=login, host=host, port=port)
     child = pexpect.spawn(connect_command)
     child.expect('Password:', timeout=5)
 
     child.sendline(login)
-    child.expect('a_lisovsky@wargaming.net', timeout=5)
+    child.expect('net', timeout=5)
 
     child.sendline('cluster-control pyconsole cellapp')
     child.expect('>>>', timeout=5)
@@ -63,9 +63,9 @@ def get_move_data():
 
 
 def main():
-    host = input('Enter server host: ') or 'by1-wotblitz-71'
-    login = input('Enter login: ') or 'wotblitz71'
-    port = input('Enter port (not required): ') or 2200
+    host = input('Enter server host: ')
+    login = input('Enter login: ')
+    port = input('Enter port (not required): ')
 
     try:
         child = pyconsole_connect(host, login, port)
