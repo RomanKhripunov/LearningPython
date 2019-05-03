@@ -1,48 +1,84 @@
 import sys
 import re
 from tkinter import *
+from tkinter import commondialog
 from bisect import bisect_left
 
 
 class MyApplication:
+    PADX = 10
+    PADY = 10
+    IPADX = 10
+    IPADY = 10
+
+    TEXT_BG = '#f2f2f2'
 
     def __init__(self, master):
-        master.title("Welcome to LikeGeeks app")
-        master.minsize(600, 300)
+        self.master = master
+        self.master.title("Insert parameters")
+        self.master.minsize(200, 200)
 
         self.tc_frame = LabelFrame(root, text='From TeamCity')
-        self.tc_frame.pack(ipadx=10, ipady=10, padx=10, pady=10, fill=X)
+        self.tc_frame.pack(padx=self.PADX, pady=self.PADY, fill=X)
 
-        self.inner_tc_frame_1 = Frame(self.tc_frame)
-        self.inner_tc_frame_1.pack(side=TOP)
+        self.new_tc_frame_1 = Frame(self.tc_frame)
+        self.new_tc_frame_1.pack(side=TOP)
 
-        Label(self.inner_tc_frame_1, text='TestRail Ids').pack()
-        self.text_ids = Text(self.inner_tc_frame_1, width=60, height=4, wrap=WORD)
-        self.text_ids.pack()
+        Label(self.new_tc_frame_1, text='TestRail Ids').pack()
+        self.text_ids = Text(self.new_tc_frame_1, bg=self.TEXT_BG, height=4, wrap=WORD)
+        self.text_ids.pack(padx=self.PADX, pady=self.PADY)
 
-        Label(self.inner_tc_frame_1, text='TestRail Parameters').pack()
-        self.text_params = Text(self.inner_tc_frame_1, width=60, height=4, wrap=WORD)
-        self.text_params.pack()
+        Label(self.new_tc_frame_1, text='TestRail Parameters').pack()
+        self.text_params = Text(self.new_tc_frame_1, bg=self.TEXT_BG, height=4, wrap=WORD)
+        self.text_params.pack(padx=self.PADX, pady=self.PADY)
 
         self.inner_tc_frame_2 = Frame(self.tc_frame)
         self.inner_tc_frame_2.pack(side=RIGHT)
 
         self.new_frame = LabelFrame(root, text='New Parameters')
-        self.new_frame.pack(ipadx=10, ipady=10, padx=10, pady=10, fill=X)
+        self.new_frame.pack(padx=self.PADX, pady=self.PADY, fill=X)
 
         Label(self.new_frame, text='New values').pack()
-        self.text_new = Text(self.new_frame, width=60, height=5, wrap=WORD)
-        self.text_new.pack()
+        self.text_new = Text(self.new_frame, bg=self.TEXT_BG, height=5, wrap=WORD)
+        self.text_new.pack(padx=self.PADX, pady=self.PADY)
 
-        self.button_generate = Button(master, text='Generate params', command=self.generate_params)
-        self.button_generate.pack()
-        self.button_clear = Button(master, text='Clear all', command=self.clear_all_fields)
-        self.button_clear.pack()
+        self.button_frame = Frame(master)
+        self.button_frame.pack(padx=self.PADX, pady=self.PADY, side=BOTTOM)
+
+        self.button_generate = Button(self.button_frame, text='Generate params', command=self.generate_params)
+        self.button_generate.pack(side=LEFT)
+        self.button_clear = Button(self.button_frame, text='Clear all', command=self.clear_all_fields)
+        self.button_clear.pack(side=LEFT)
+
+
+        self.text_ids.insert(1.0, '276480 278105 517200 291990')
+        self.text_params.insert(1.0, "select label_05='test_buy_equipment_not_enough_money' data_05='467815'")
+        self.text_new.insert(1.0, "test_tank_slot_presence, 14475\ntest_purchase_slot_screen, 14477")
+
+
+
+    def show_result(self, result_ids, result_params):
+        new_window = Toplevel(root)
+
+        self.new_tc_frame_1 = Frame(new_window)
+        self.new_tc_frame_1.pack(side=TOP)
+
+        Label(self.new_tc_frame_1, text='TestRail Ids').pack()
+        new_text_ids = Text(self.new_tc_frame_1, bg=self.TEXT_BG, height=4, wrap=WORD)
+        new_text_ids.pack(padx=self.PADX, pady=self.PADY)
+
+        Label(self.new_tc_frame_1, text='TestRail Parameters').pack()
+        new_text_params = Text(self.new_tc_frame_1, bg=self.TEXT_BG, height=4, wrap=WORD)
+        new_text_params.pack(padx=self.PADX, pady=self.PADY)
+
+        new_text_ids.insert(1.0, result_ids)
+        new_text_params.insert(1.0, result_params)
+
 
     def clear_all_fields(self):
-        self.text_ids.delete('1.0', END)
-        self.text_params.delete('1.0', END)
-        self.text_new.delete('1.0', END)
+        self.text_ids.delete(1.0, END)
+        self.text_params.delete(1.0, END)
+        self.text_new.delete(1.0, END)
 
     def find_missing(self, int_array, min_val=False, max_val=False):
         if len(int_array) == 0:
@@ -91,10 +127,11 @@ class MyApplication:
         return result
 
     def generate_params(self):
-        all_ids = re.findall(r'\d+', self.text_ids.get(index1=1))
-        all_labels = re.findall(r'label\_\d+', self.text_params.get(index1=0, index2=END))
-        all_datas = re.findall(r'data\_\d+', self.text_params.get(index1=0, index2=END))
-        all_data_ids = re.findall(r'[\'|\"](\d+)[\'|\"]', self.text_params.get(index1=0, index2=END))
+
+        all_ids = re.findall(r'\d+', self.text_ids.get(1.0, END))
+        all_labels = re.findall(r'label\_\d+', self.text_params.get(1.0, END))
+        all_datas = re.findall(r'data\_\d+', self.text_params.get(1.0, END))
+        all_data_ids = re.findall(r'[\'|\"](\d+)[\'|\"]', self.text_params.get(1.0, END))
 
         if len(all_labels) != len(all_datas):
             raise Exception(
@@ -105,7 +142,10 @@ class MyApplication:
 
         new_settings = []
         new_ids = []
-        for test_name, test_id in tuple(self.text_new.get(index1=0, index2=END)):
+
+        new_values = [line.split(', ') for line in self.text_new.get(1.0, END).split('\n') if line]
+
+        for test_name, test_id in new_values:
             try:
                 free_number = missed_numbers.pop(0)
             except IndexError:
@@ -122,14 +162,15 @@ class MyApplication:
 
         new_ids_str = ' '.join(new_ids)
         print('-------------- GOT = ' + str(len(new_values)) + '; EDDED = ' + str(len(new_ids)) + ' --------------')
-        print(selected_ids + ' ' + new_ids_str)
+        # print(selected_ids + ' ' + new_ids_str)
 
         new_settings_str = ' '.join(new_settings)
         print(
             '-------------- GOT = ' + str(len(new_values)) + '; EDDED = ' + str(len(new_settings)) + ' --------------')
-        print(settings + ' ' + new_settings_str)
+        # print(settings + ' ' + new_settings_str)
 
         print('--------------------------------------------------------------------------------------------------')
+        self.show_result(new_ids_str, new_settings_str)
 
 
 if __name__ == '__main__':
