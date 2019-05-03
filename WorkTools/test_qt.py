@@ -46,33 +46,49 @@ class MyApplication:
         self.button_frame.pack(padx=self.PADX, pady=self.PADY, side=BOTTOM)
 
         self.button_generate = Button(self.button_frame, text='Generate params', command=self.generate_params)
-        self.button_generate.pack(side=LEFT)
+        self.button_generate.pack(padx=self.PADX, side=LEFT)
         self.button_clear = Button(self.button_frame, text='Clear all', command=self.clear_all_fields)
-        self.button_clear.pack(side=LEFT)
-
+        self.button_clear.pack(padx=self.PADX, side=LEFT)
 
         self.text_ids.insert(1.0, '276480 278105 517200 291990')
         self.text_params.insert(1.0, "select label_05='test_buy_equipment_not_enough_money' data_05='467815'")
         self.text_new.insert(1.0, "test_tank_slot_presence, 14475\ntest_purchase_slot_screen, 14477")
 
+    def copy_to_clipboard_1(self):
+        field_value = self.new_text_ids.get(1.0, END)
+        self.master.clipboard_clear()
+        self.master.clipboard_append(field_value)
 
+    def copy_to_clipboard_2(self):
+        field_value = self.new_text_params.get(1.0, END)
+        self.master.clipboard_clear()
+        self.master.clipboard_append(field_value)
 
     def show_result(self, result_ids, result_params):
         new_window = Toplevel(root)
 
         self.new_tc_frame_1 = Frame(new_window)
-        self.new_tc_frame_1.pack(side=TOP)
+        self.new_tc_frame_1.pack(side=TOP, padx=self.PADX, pady=self.PADY)
 
         Label(self.new_tc_frame_1, text='TestRail Ids').pack()
-        new_text_ids = Text(self.new_tc_frame_1, bg=self.TEXT_BG, height=4, wrap=WORD)
-        new_text_ids.pack(padx=self.PADX, pady=self.PADY)
+        self.new_text_ids = Text(self.new_tc_frame_1, bg=self.TEXT_BG, height=4, wrap=WORD)
+        self.new_text_ids.pack()
 
-        Label(self.new_tc_frame_1, text='TestRail Parameters').pack()
-        new_text_params = Text(self.new_tc_frame_1, bg=self.TEXT_BG, height=4, wrap=WORD)
-        new_text_params.pack(padx=self.PADX, pady=self.PADY)
+        copy_button_ids = Button(self.new_tc_frame_1, text='Copy', command=self.copy_to_clipboard_1)
+        copy_button_ids.pack(side=BOTTOM, pady=self.PADY)
 
-        new_text_ids.insert(1.0, result_ids)
-        new_text_params.insert(1.0, result_params)
+        self.new_tc_frame_2 = Frame(new_window)
+        self.new_tc_frame_2.pack(side=TOP, padx=self.PADX, pady=self.PADY)
+
+        Label(self.new_tc_frame_2, text='TestRail Parameters').pack()
+        self.new_text_params = Text(self.new_tc_frame_2, bg=self.TEXT_BG, height=4, wrap=WORD)
+        self.new_text_params.pack()
+
+        self.new_text_ids.insert(1.0, result_ids)
+        self.new_text_params.insert(1.0, result_params)
+
+        copy_button_params = Button(self.new_tc_frame_2, text='Copy', command=self.copy_to_clipboard_2)
+        copy_button_params.pack(side=BOTTOM, pady=self.PADY)
 
 
     def clear_all_fields(self):
@@ -143,9 +159,7 @@ class MyApplication:
         new_settings = []
         new_ids = []
 
-        new_values = [line.split(', ') for line in self.text_new.get(1.0, END).split('\n') if line]
-
-        for test_name, test_id in new_values:
+        for test_name, test_id in [line.split(', ') for line in self.text_new.get(1.0, END).split('\n') if line]:
             try:
                 free_number = missed_numbers.pop(0)
             except IndexError:
@@ -160,16 +174,11 @@ class MyApplication:
             if test_id not in all_ids:
                 new_ids.append(test_id)
 
-        new_ids_str = ' '.join(new_ids)
-        print('-------------- GOT = ' + str(len(new_values)) + '; EDDED = ' + str(len(new_ids)) + ' --------------')
-        # print(selected_ids + ' ' + new_ids_str)
+        ids_str = ' '.join(new_ids)
+        new_ids_str = self.text_ids.get(1.0, END).replace('\n', ' ') + ids_str
 
-        new_settings_str = ' '.join(new_settings)
-        print(
-            '-------------- GOT = ' + str(len(new_values)) + '; EDDED = ' + str(len(new_settings)) + ' --------------')
-        # print(settings + ' ' + new_settings_str)
-
-        print('--------------------------------------------------------------------------------------------------')
+        settings_str = ' '.join(new_settings)
+        new_settings_str = self.text_params.get(1.0, END).replace('\n', ' ') + settings_str
         self.show_result(new_ids_str, new_settings_str)
 
 
